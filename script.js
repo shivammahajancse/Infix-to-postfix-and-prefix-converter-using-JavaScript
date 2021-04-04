@@ -101,7 +101,7 @@ function InfixtoPostfix()
     }
     var st="";
     for(var i=0;i<postfix.length;i++)st+=postfix[i];
-   document.getElementById("text").innerHTML=st;
+   document.getElementById("text1").innerHTML=st;
  }
  function InfixtoPrefix()
 {
