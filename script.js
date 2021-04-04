@@ -113,7 +113,13 @@ function InfixtoPostfix()
     for(var i=infixval.length-1;i>=0;i--)
     {
         var el=infixval[i];
-        
+        if(operator(el))
+        {
+            if (el =='(') {
+                while (stackarr[topp] != ")") {
+                  prefix[temp++] = pop();
+                }
+         
  }
  
  
