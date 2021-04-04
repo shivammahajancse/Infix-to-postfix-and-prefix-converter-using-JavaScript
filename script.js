@@ -119,7 +119,9 @@ function InfixtoPostfix()
                 while (stackarr[topp] != ")") {
                   prefix[temp++] = pop();
                 }
-         
+          pop();
+            }
+            
  }
  
  
