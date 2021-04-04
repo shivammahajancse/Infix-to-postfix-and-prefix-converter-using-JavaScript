@@ -52,6 +52,7 @@ function precedency(pre)
 }
 
 function InfixtoPostfix()
+
 {
     var postfix=[];
     var temp=0;
@@ -107,6 +108,8 @@ function InfixtoPostfix()
     var prefix=[];
     var temp=0;
     push('@');
+    infixval= document.getElementById("infixvalue").value;
     
  }
+ 
  
