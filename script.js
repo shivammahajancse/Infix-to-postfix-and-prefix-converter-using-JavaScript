@@ -102,4 +102,8 @@ function InfixtoPostfix()
     for(var i=0;i<postfix.length;i++)st+=postfix[i];
    document.getElementById("text").innerHTML=st;
  }
+ function InfixtoPrefix()
+{
+    
+ }
  
