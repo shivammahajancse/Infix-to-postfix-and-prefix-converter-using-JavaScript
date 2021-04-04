@@ -150,7 +150,8 @@ function InfixtoPostfix()
         prefix[temp++]=pop();
     }
     var st="";
-    
+    for(var i=prefix.length-1;i>=0;i--)st+=prefix[i];
+  
  }
  
  
