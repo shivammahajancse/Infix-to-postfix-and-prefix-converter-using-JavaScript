@@ -133,7 +133,10 @@ function InfixtoPostfix()
             else
             {
                 while(precedency(el)<=precedency(stackarr[topp])&&topp>-1)
-               
+                {
+                     prefix[temp++]=pop();
+                }
+              
  }
  
  
