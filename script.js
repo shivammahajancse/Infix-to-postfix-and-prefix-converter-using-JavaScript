@@ -124,7 +124,9 @@ function InfixtoPostfix()
             else if(el==')')
             {
                 push(el);
-           
+            }
+
+          
  }
  
  
