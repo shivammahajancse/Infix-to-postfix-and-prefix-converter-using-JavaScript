@@ -151,7 +151,7 @@ function InfixtoPostfix()
     }
     var st="";
     for(var i=prefix.length-1;i>=0;i--)st+=prefix[i];
-  
+   document.getElementById("text").innerHTML=st;
  }
  
  
