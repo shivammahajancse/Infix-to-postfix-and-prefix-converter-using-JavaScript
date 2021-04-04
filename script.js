@@ -104,6 +104,7 @@ function InfixtoPostfix()
  }
  function InfixtoPrefix()
 {
-    
+    var prefix=[];
+   
  }
  
