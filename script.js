@@ -58,7 +58,7 @@ function InfixtoPostfix()
     var temp=0;
     push('@');
     infixval= document.getElementById("infixvalue").value;
-    console.log(infixval);
+    
 
     for(var i=0;i<infixval.length;i++)
     {
