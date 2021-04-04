@@ -127,6 +127,7 @@ function InfixtoPostfix()
             }
 
             else if(precedency(el)>precedency(stackarr[topp]))
+            {
            
  }
  
