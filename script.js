@@ -149,7 +149,8 @@ function InfixtoPostfix()
     {
         prefix[temp++]=pop();
     }
-   
+    var st="";
+    
  }
  
  
