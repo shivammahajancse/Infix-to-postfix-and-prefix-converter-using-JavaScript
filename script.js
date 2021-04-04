@@ -140,7 +140,8 @@ function InfixtoPostfix()
             }
         }
         else{
-      
+            prefix[temp++]=el;
+       
  }
  
  
