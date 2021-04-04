@@ -105,6 +105,8 @@ function InfixtoPostfix()
  function InfixtoPrefix()
 {
     var prefix=[];
-   
+    var temp=0;
+    push('@');
+    
  }
  
