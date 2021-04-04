@@ -136,7 +136,8 @@ function InfixtoPostfix()
                 {
                      prefix[temp++]=pop();
                 }
-              
+                push(el);
+           
  }
  
  
